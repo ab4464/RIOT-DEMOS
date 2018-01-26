@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>RIOT Mini Demo</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h2 class="heading"><span class="label label-danger">RIOT</span> Mini Demos</h2>
+    <hr />
+
+    <h3 class="heading">Press the button to toggle the state of the image</h3>
+    <my-images galery="https://cdn.dribbble.com/users/16679/screenshots/908749/hey-you_1x.png"></my-images>
+    <my-images galery="https://www.cityofchicago.org/content/dam/city/depts/dca/CCC%20Exhibits/50_50/heyyou800.png"></my-images>
+    <my-images galery="https://www.frugalfeeds.com.au/wp-content/uploads/2016/11/Hey-You.png"></my-images>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src = "tags/my-images.tag" type="riot/tag"></script>
+
+  <script src = "https://cdn.jsdelivr.net/riot/3.1/riot+compiler.js"></script>
+
+  <script>
+    riot.mount('*');
+  </script>
+  </body>
+</html>
